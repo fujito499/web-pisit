@@ -4,3 +4,4 @@ numpy
 joblib
 matplotlib
 scikit-learn
+openpyxl == 3.1.1
