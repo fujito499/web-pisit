@@ -21,7 +21,7 @@ def generate_pocket_money():
     rng = np.random.RandomState(0)
     n = 3
     n1 = random.randrange(2000, 20000)
-    n2 = random.randrange(1000, 2000)
+    n2 = random.randrange(1000, 20000)
     x = np.round(n1 * rng.rand(n))
     y = np.round(n2 * rng.rand(n))
     df = pd.DataFrame({
